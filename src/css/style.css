@@ -112,6 +112,10 @@ img {
   display: flex;
 }
 
+.hero-image {
+  margin-right: -28px;
+}
+
 .hero-text {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
@@ -148,7 +152,7 @@ img {
 }
 
 .hero-list__image {
-  width: 40px;
+  min-width: 40px;
   height: 40px;
   border: 2px solid #ffd200;
   display: -webkit-box;
@@ -169,13 +173,13 @@ img {
 }
 
 @media (max-width: 1200px) {
-  .heroblock {
+  .hero-block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .herolist {
+  .hero-list {
     margin-bottom: 44px;
     padding-right: 50px;
   }
